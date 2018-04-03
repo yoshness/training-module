@@ -1,0 +1,21 @@
+.features {
+  background-color: $color-primary;
+}
+
+.features-inner {
+  border: 10px solid $color-white;
+  background-color: gray;
+}
+
+.features-list {
+  margin-bottom: 40px;
+  list-style-type: none;
+  font-size: 0;
+}
+
+.features-list-item {
+  display: inline-block;
+  width: 33.33%;
+
+  padding: 0 10px;
+}

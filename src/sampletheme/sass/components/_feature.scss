@@ -1,0 +1,36 @@
+.feature {
+  
+}
+
+.feature-image {
+  background: url(#{$path-image}bg.jpeg) no-repeat center center;
+  background-size: cover;
+
+  height: 200px;
+}
+
+.feature-title {
+  margin: 10px 0 10px -5px;
+  font-style: italic;
+  font-weight: bold;
+
+  font-size: 21px;
+  color: $color-white;
+}
+
+.feature-description {
+  font-size: 15px;
+  color: $color-white;
+
+}
+
+// MODIFIERS
+.feature-title-red {
+  color: red;
+}
+.feature-title-yellow {
+  color: yellow;
+}
+.feature-title-blue {
+  color: blue;
+}
